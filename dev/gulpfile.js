@@ -4,7 +4,7 @@ var gulp	=	require('gulp'),
 	browserSync	=	require('browser-sync').create();
 
 gulp.task('less', function() {
-    gulp.src(['./custom-less/tema.less'])
+    gulp.src(['./custom-less/*.less'])
       .pipe(less())
       .pipe(gulp.dest('../assets/css'))
       .pipe(browserSync.reload({stream: true}));

@@ -1,7 +1,7 @@
 base-css:
   css:
     theme:
-      assets/css/tema.css: {}
+      assets/css/cutebox.css: {}
 base-js:
   js:
     assets/js/uikit.js: {}

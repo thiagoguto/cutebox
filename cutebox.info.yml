@@ -1,10 +1,10 @@
-name: Tema
-description: Tema site base
+name: Cutebox
+description: Tema site base Cutebox
 type: theme
 core: 8.x
 libraries:
-  - tema/base-css
-  - tema/base-js
+  - cutebox/base-css
+  - cutebox/base-js
 regions:
   header: 'Header'
   banner: 'Banner'
