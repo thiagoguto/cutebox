@@ -1,0 +1,14 @@
+name: Tema
+description: Tema site base
+type: theme
+core: 8.x
+libraries:
+  - tema/base-css
+  - tema/base-js
+regions:
+  header: 'Header'
+  banner: 'Banner'
+  help: 'Ajuda'
+  content: 'Conteudo Principal'
+  footer: 'Footer'
+  mobile: 'Mobile'
